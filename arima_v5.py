@@ -8,24 +8,6 @@ from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 from pandas.plotting import register_matplotlib_converters
 from sklearn.metrics import mean_squared_error
 register_matplotlib_converters()
-'''
-# 第二步：数据加载和预处理
-# 加载数据
-data = pd.read_csv('output_jingpohu.csv', delimiter=',', parse_dates=['date'], index_col='date')
-
-# 删除重复的日期
-data = data[~data.index.duplicated(keep='first')]
-
-# 检查数据
-print(data.head(10))  # 显示前10行数据
-
-# 第三步：数据可视化
-# 绘制magnitude数据图
-data['magnitude'].plot(title='Volcanic Magnitude Over Time')
-plt.xlabel('Date')
-plt.ylabel('Magnitude')
-plt.show()
-'''
 
 # 检查是否提供了数据集名称作为命令行参数
 if len(sys.argv) != 2:
