@@ -21,7 +21,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">"论文代码</h3>
+  <h3 align="center">论文代码</h3>
   <p align="center">
     使用ARIMA来统计、拟合和预测火山地震
     <br />
