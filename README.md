@@ -84,11 +84,11 @@ filetree
 
 ### 依赖
 
-1.pandas
-2.numpy
-3.matplotlib
-4.statsmodels
-5.sklearn
+1. pandas
+2. numpy
+3. matplotlib
+4. statsmodels
+5. sklearn
 
 ### 版本控制
 
